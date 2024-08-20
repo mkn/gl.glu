@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -e
 
-[ ! -d "g" ] && git clone git@github.com:mkn/gl.glu g --depth 10 --recursive --shallow-submodules
+[ ! -d "g" ] && git clone https://gitlab.freedesktop.org/mesa/glu g --depth 10 --recursive --shallow-submodules
