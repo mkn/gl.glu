@@ -1,4 +1,10 @@
-
 name: gl.glu
-dep: gl.gl
-inc: g/include
+parent: base
+
+profile:
+- name: base
+  inc: g/include
+
+- name: dep
+  parent: base
+  dep: gl.gl
